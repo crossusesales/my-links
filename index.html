@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>リンク集</title>
+    <title>お申し込みはこちら</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f4f4f4;
+            background: linear-gradient(to bottom, #87CEEB, #FFFFFF); /* 空のような背景 */
         }
         h1 {
             text-align: center;
+            color: #20AEE5; /* タイトルの色 */
         }
         .link-container {
             max-width: 600px;
@@ -20,31 +21,32 @@
             background: white;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
         .link-item {
             margin: 10px 0;
         }
         a {
             text-decoration: none;
-            color: #007bff;
+            color: white; /* ボタンの文字色 */
             padding: 10px;
             display: block;
-            border: 1px solid #007bff;
+            background-color: #20AEE5; /* ボタンの背景色 */
             border-radius: 5px;
             text-align: center;
-            transition: background 0.3s;
+            transition: background 0.3s, transform 0.3s; /* ホバー時の変化 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ボタンの影 */
         }
         a:hover {
-            background: #007bff;
-            color: white;
+            background: #1a9ac8; /* ホバー時の色 */
+            transform: translateY(-2px); /* クリックボタンの3D効果 */
         }
     </style>
 </head>
 <body>
 
 <div class="link-container">
-    <h1>リンク集</h1>
+    <h1>お申し込みはこちら</h1>
     <div class="link-item">
         <a href="https://airregi.jp/payment/rpy/contract/entry/?invitation_Code=AOA133" target="_blank">Airペイ申込はこちら</a>
     </div>
